@@ -73,7 +73,7 @@ header {
 
   font-size: 12px;
 }
-.text{
+.text {
   margin: 10px;
 }
 
@@ -97,13 +97,21 @@ header {
   border-radius: 2px;
   font-weight: bold;
 }
+.form-btn {
+  transition-duration: 0.3s;
+}
+
+.form-btn:hover {
+  background-color: rgb(90, 90, 224);
+ 
+}
 
 .about {
   color: green;
 }
 .text-area {
   max-width: 50%;
-  margin: 10px;
+  margin: 40px;
   padding: 10px;
   color: #030031;
   box-shadow: -12px -3px 24px 2px rgba(190, 190, 190, 0.75);
@@ -143,8 +151,7 @@ header {
   max-width: 100%;
   width: 100%;
   padding: 10px;
-  background-color: #F9F8FE;
- 
+  background-color: #f9f8fe;
 }
 
 .details {
@@ -160,7 +167,7 @@ header {
   margin: 20px;
   padding: 20px;
   color: rgb(216, 216, 216);
- }
+}
 .talk h1 {
   font-weight: bold;
 }
@@ -171,7 +178,6 @@ header {
   width: 50%;
   margin: 20px;
   padding: 20px;
-  
 }
 .enter input {
   width: 60%;
@@ -179,7 +185,7 @@ header {
   padding: 10px;
   margin-left: 20px;
   border-radius: 2px;
-  border: none ;
+  border: none;
 }
 .enter button {
   width: 40%;
@@ -190,7 +196,15 @@ header {
   margin-left: 20px;
   border: none;
 }
+.enter button
+{
+  transition-duration: 0.3s;
+}
 
+.enter button:hover {
+  background-color: rgb(90, 90, 224);
+ 
+}
 .enter ::placeholder {
   color: #000;
   opacity: 0.2;
@@ -203,8 +217,9 @@ footer {
 }
 .footer-details {
   padding: 10px;
+  margin: 30px;
   max-width: 100%;
-  width: 100%;  
+  width: 100%;
 }
 .logo-details {
   width: 25%;
@@ -239,105 +254,100 @@ footer {
 }
 .address {
   width: 30%;
-  
 }
-@media screen and  (max-width:450px) {
-
-    .logo-section{
-        width: 100%;
-
-    }
-    .logo{
-        width: 20%;
-    }
-    .nav{
-        width: auto;
-        gap: 20px;
-    }
-    .first-main{
-        flex-direction: column-reverse;
-    }
-    .first-hero{
-        max-width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    .firstImg{
-        width: 100%;
-    }
-    .text{
-        width: 100%;
-        text-align: center;
-        margin: 0;
-        
-    }
-    .second-hero{
-        max-width: 100%;
-    }
-    .text-btn{
-        flex-direction: column;
-    }
-    .form-input{
-        width: 100%;
-    }
-    .form-btn{
-        width: 100%;
-    }
-    .first-herobg{
-        flex-direction: column-reverse;
-    }
-   .text-area{
-    margin-left: 50px;
-   }
-   .details{
-    flex-direction: column;
-   }
-   .talk{
+@media screen and (max-width: 600px) {
+  .logo-section {
+    width: 100%;
+  }
+  .logo {
+    width: 20%;
+  }
+  .nav {
+    width: auto;
+    gap: 20px;
+  }
+  .first-main {
+    flex-direction: column-reverse;
+  }
+  .first-hero {
     max-width: 100%;
-   }
-   .enter{
+    margin: 0;
+    padding: 0;
+  }
+  .firstImg {
+    width: 100%;
+  }
+  .text {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+  .second-hero {
+    max-width: 100%;
+  }
+  .text-btn {
+    flex-direction: column;
+  }
+  .form-input {
+    width: 100%;
+  }
+  .form-btn {
+    width: 100%;
+  }
+  .first-herobg {
+    flex-direction: column-reverse;
+  }
+  .text-area {
+    margin-left: 50px;
+  }
+  .details {
+    flex-direction: column;
+  }
+  .talk {
+    max-width: 100%;
+  }
+  .enter {
     width: 100%;
     margin: 0px;
-   }
-   .phone{
+  }
+  .phone {
     flex-direction: column;
     max-width: 100%;
     margin: 0;
   }
-  .social{
+  .social {
     width: 100%;
-    
+
     padding: 20px;
   }
-  .social svg{
+  .social svg {
     margin-left: 50px;
-    
   }
-  .logo-details{
-    
+  .logo-details {
     width: 100%;
     margin: 0;
     margin-left: 30px;
     padding: 10px;
   }
-  .address{
+  .address {
     width: 100%;
     margin-right: 20px;
     padding: 10px;
-    
   }
-  .footer-logos{
+  .footer-logos {
     margin-left: 60px;
   }
-  .logo-details ul{
+  .logo-details ul {
     margin-right: 30px;
   }
-  
-  .text-btn input{
-    width: 100%;
+
+  .text-btn input {
+    width: 80%;
     margin-bottom: 10px;
   }
-  .text-btn button{
-    width: 100%;
+  .text-btn button {
+    width: 50%;
+  
+    margin-right: 60px;;
   }
-  }
+}
